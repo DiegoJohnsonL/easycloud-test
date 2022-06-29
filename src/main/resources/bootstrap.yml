@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: shopping-service
+  cloud:
+    config:
+      uri: https://easycloud-config-service.herokuapp.com/
+      username: root
+      password: s3cr3t
