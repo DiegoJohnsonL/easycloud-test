@@ -6,3 +6,7 @@ spring:
       uri: https://easycloud-config-service.herokuapp.com/
       username: root
       password: s3cr3t
+  boot:
+    admin:
+      client:
+        url: https://easycloud-admin-service.herokuapp.com
