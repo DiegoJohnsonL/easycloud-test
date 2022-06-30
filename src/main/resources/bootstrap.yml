@@ -1,12 +1,19 @@
+#Application Configuration
+server:
+  port: ${PORT:8080}
+  error:
+    include-message: always
+    include-binding-errors: always
+
 spring:
   application:
     name: shopping-service
   cloud:
     config:
-      uri: https://easycloud-config-service.herokuapp.com/
+      uri: https://easycloud-config-service.herokuapp.com
       username: root
       password: s3cr3t
   boot:
     admin:
       client:
-        url: https://easycloud-admin-service.herokuapp.com
+        url: http://localhost:8080
