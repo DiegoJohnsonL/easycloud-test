@@ -20,3 +20,11 @@ spring:
         auto-registration: true
         instance:
           service-url: https://easycloud-gateway.herokuapp.com
+
+
+# Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
