@@ -16,4 +16,7 @@ spring:
   boot:
     admin:
       client:
-        url: https://easycloud-admin-service.herokuapp.com/
+        url: https://easycloud-admin-service.herokuapp.com
+        auto-registration: true
+        instance:
+          service-url: https://easycloud-gateway.herokuapp.com
