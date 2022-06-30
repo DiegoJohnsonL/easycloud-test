@@ -20,12 +20,6 @@ spring:
         instance:
           service-url: https://easycloud-gateway.herokuapp.com
 
-# Eureka Client
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: https://easycloud-registry-service.herokuapp.com/eureka/
-
 # Actuator
 management:
   info:
